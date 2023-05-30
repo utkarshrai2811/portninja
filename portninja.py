@@ -33,7 +33,7 @@ def main():
             with print_lock:
                 print("Port {} is open".format(port))
                 open_ports.append(str(port))
-            port_connection.close()
+            port_connection.close() # type: ignore
 
         except (ConnectionRefusedError, AttributeError, OSError):
             pass
@@ -91,6 +91,7 @@ def main():
                     print(e)
                     sys.exit()
             elif choice == "2":
+                print("\nSayōnara")
                 sys.exit()
             else:
                 print("Please make a valid selection")
