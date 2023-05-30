@@ -16,7 +16,7 @@ Python3 must be installed on your system in order for the script to function
 git clone https://github.com/utkarshrai2811/portninja.git
 ```
 
-## Run by typing
+## Execution
 
 ### On Windows
 
@@ -24,7 +24,7 @@ git clone https://github.com/utkarshrai2811/portninja.git
 python .\portninja.py
 ```
 
-### On Linux
+### On Linux/macOS/Unix
 
 ```bash
 python3 portninja.py
